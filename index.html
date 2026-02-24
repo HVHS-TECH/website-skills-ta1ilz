@@ -1,40 +1,99 @@
 <!DOCTYPE html>
-<html lang=en>
+<html lang="en">
 
 <head>
-  <title>My cool page</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Cool Page - Vikum</title>
   <link href="styles.css" rel="stylesheet">
+
   <style>
-    body { 
-      background-color: rgb(0, 255, 204);  
-    }  
-  </style>
-   
-   <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #00ffc8, #00bfa6);
+      text-align: center;
+    }
+
+    .container {
+      padding: 40px 20px;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      margin-top: 40px;
+    }
+
+    p {
+      font-size: 1.1rem;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      background: white;
+      margin: 8px auto;
+      padding: 10px;
+      width: 200px;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+
     img {
       border-radius: 50%;
+      margin-top: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+
+    a {
+      display: inline-block;
+      margin-top: 20px;
+      text-decoration: none;
+      background: black;
+      color: white;
+      padding: 10px 15px;
+      border-radius: 6px;
+      transition: 0.3s;
+    }
+
+    a:hover {
+      background: #333;
     }
   </style>
-<a href="https://en.wikipedia.org/wiki/Clash_Royale">Clash_Royale</a>
+</head>
 
 <body>
-  <h1>This is my page</h1>
-  <p>and a paragraph!</p>
-  Test
-  <h1>Hi my name is Vikum</h1>
-  <p>Im 15 years old an I come from SriLanka.</p>
-  <h2>List of subjects for the year</h2>
-<ul>
-  <li>English</li>
-  <li>Maths</li>
-  <li>Science</li>
-  <li>Dtech</li>
-  <li>Accounting</li>
-  <li>Spanish</li>
-</ul>
+  <div class="container">
+    <h1>Hi, I'm Vikum</h1>
 
-  <img src="shrek.jpg" alt="shrek" width="300" height="300"> 
-  
+    <p>I am 15 years old and I come from Sri Lanka.</p>
+
+    <h2>My Subjects This Year</h2>
+
+    <ul>
+      <li>English</li>
+      <li>Maths</li>
+      <li>Science</li>
+      <li>Digital Technology</li>
+      <li>Accounting</li>
+      <li>Spanish</li>
+    </ul>
+
+    <img src="shrek.jpg" alt="Shrek image" width="250" height="250">
+
+    <br>
+
+    <a href="https://en.wikipedia.org/wiki/Clash_Royale" target="_blank">
+      Clash Royale
+    </a>
+  </div>
 </body>
-</html>
 
+</html>
