@@ -1,14 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="en-US">
 <head>
+  <title>My Cool Page - Vikum</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Cool Page - Vikum</title>
-  <link href="styles.css" rel="stylesheet">
-  <a href="gallery.html">gallery</a>
-  
-  <a href="Home.html">Home</a>
 
   <style>
     body {
@@ -18,67 +13,76 @@
       text-align: center;
     }
 
+    nav {
+      background-color: black;
+      padding: 10px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 10px;
+      font-weight: bold;
+    }
+
     .container {
-      padding: 40px 20px;
-    }
-
-    h1 {
-      font-size: 2.5rem;
-      margin-bottom: 10px;
-    }
-
-    h2 {
-      margin-top: 40px;
-    }
-
-    p {
-      font-size: 1.1rem;
+      padding: 30px;
     }
 
     ul {
-      list-style: none;
+      list-style-type: none;
       padding: 0;
     }
 
     li {
-      background: white;
-      margin: 8px auto;
-      padding: 10px;
+      background-color: white;
       width: 200px;
-      border-radius: 8px;
+      margin: 8px auto;
+      padding: 8px;
       font-weight: bold;
     }
 
     img {
-      border-radius: 50%;
       margin-top: 20px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+      box-shadow: 3px 3px 8px rgba(0,0,0,0.3);
     }
 
-    a {
+    .button {
       display: inline-block;
-      margin-top: 20px;
-      text-decoration: none;
-      background: black;
+      margin-top: 15px;
+      padding: 8px 12px;
+      background-color: black;
       color: white;
-      padding: 10px 15px;
-      border-radius: 6px;
-      transition: 0.3s;
+      text-decoration: none;
     }
 
-    a:hover {
-      background: #333;
+    .button:hover {
+      background-color: #333;
+    }
+
+    footer {
+      background-color: black;
+      color: white;
+      padding: 10px;
+      margin-top: 40px;
+      font-size: 14px;
     }
   </style>
 </head>
 
 <body>
+
+  <nav>
+    <a href="home.html">Home</a>
+    <a href="gallery.html">Gallery</a>
+  </nav>
+
   <div class="container">
-    <h1>Hi i'm Vikum</h1>
+    <h1>Hi I'm Vikum</h1>
 
-    <p>Im 15 years old and I come from Sri Lanka</p>
+    <p>I'm 15 years old and I come from Sri Lanka.</p>
 
-    <h2>This is the list of subjects im doing this year</h2>
+    <h2>Subjects I'm doing this year</h2>
 
     <ul>
       <li>English</li>
@@ -89,18 +93,17 @@
       <li>Spanish</li>
     </ul>
 
-    <img src="shrek.jpg" alt="Shrek image" width="250" height="250">
+    <img src="shrek.jpg" alt="Shrek" width="250" height="250">
 
     <br>
 
-    <a href="https://en.wikipedia.org/wiki/Clash_Royale" target="_blank">
-      Clash Royale
-    </a>
-    <a href="https://en.wikipedia.org/wiki/Shrek" target="_blank">
-      Shrek
-    </a>
+    <a class="button" href="https://en.wikipedia.org/wiki/Clash_Royale" target="_blank">Clash Royale</a>
+    <a class="button" href="https://en.wikipedia.org/wiki/Shrek" target="_blank">Shrek</a>
   </div>
+
+  <footer>
+    © 2026 Vikum
+  </footer>
+
 </body>
-
 </html>
-
