@@ -1,101 +1,101 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en">
 <head>
-<title>Gallery - Vikum</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Vikum</title>
 
-<style>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #00ffc8, #00bfa6);
+            text-align: center;
 
-body{
-  margin:0;
-  font-family: Arial, sans-serif;
-  background: linear-gradient(to right, #00ffc8, #00bfa6);
-  text-align:center;
-}
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
 
-nav{
-  background:black;
-  padding:10px;
-}
+        nav {
+            background-color: black;
+            padding: 10px;
+        }
 
-nav a{
-  color:white;
-  text-decoration:none;
-  margin:10px;
-  font-weight:bold;
-}
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: bold;
+        }
 
-.container{
-  padding:30px;
-}
+        .container {
+            padding: 30px;
+            flex: 1;
+        }
 
-.gallery{
-  margin-top:20px;
-}
+        .gallery {
+            margin-top: 20px;
+        }
 
-.gallery img{
-  width:250px;
-  margin:15px;
-  box-shadow:3px 3px 8px rgba(0,0,0,0.3);
-  border:4px solid white;
-}
+        .gallery img {
+            width: 250px;
+            margin: 15px;
+            border: 4px solid white;
+            box-shadow: 3px 3px 8px rgba(0,0,0,0.3);
+        }
 
-footer{
-  background:black;
-  color:white;
-  padding:10px;
-  margin-top:40px;
-  font-size:14px;
-}
-
-</style>
+        footer {
+            background-color: black;
+            color: white;
+            padding: 10px;
+            font-size: 14px;
+        }
+    </style>
 </head>
 
 <body>
 
-<nav>
-<a href="home.html">Home</a>
-<a href="gallery.html">Gallery</a>
-</nav>
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="gallery.html">Gallery</a>
+    </nav>
 
-<div class="container">
+    <div class="container">
+        <h1>My Gallery</h1>
 
-<h1>My Gallery</h1>
+        <div class="gallery">
 
-<div class="gallery">
+            <a href="https://drive.google.com/file/d/13GMd-y3BoXwE0d-HEekLyMQbkyn__K6h/view" target="_blank">
+                <img src="guy.png" alt="forest">
+            </a>
 
-<a href="https://drive.google.com/file/d/13GMd-y3BoXwE0d-HEekLyMQbkyn__K6h/view" target="_blank">
-<img src="guy.png" alt="forest">
-</a>
+            <a href="https://drive.google.com/file/d/1C6BCqqupnCEp11-KxY9Y8gievDywopJg/view" target="_blank">
+                <img src="buildings.png" alt="buildings">
+            </a>
 
-<a href="https://drive.google.com/file/d/1C6BCqqupnCEp11-KxY9Y8gievDywopJg/view" target="_blank">
-<img src="buildings.png" alt="buildings">
-</a>
+            <a href="https://drive.google.com/file/d/147B6RqXBBtdNu7Nq-WRT_3tFUu-G9_JJ/view" target="_blank">
+                <img src="vine.png" alt="vine">
+            </a>
 
-<a href="https://drive.google.com/file/d/147B6RqXBBtdNu7Nq-WRT_3tFUu-G9_JJ/view" target="_blank">
-<img src="vine.png" alt="vine">
-</a>
+            <a href="https://drive.google.com/file/d/1JBX6XKQkUQHjb4mCoWSc5PNRxWyAybDk/view" target="_blank">
+                <img src="vine2.png" alt="tree">
+            </a>
 
-<a href="https://drive.google.com/file/d/1JBX6XKQkUQHjb4mCoWSc5PNRxWyAybDk/view" target="_blank">
-<img src="vine2.png" alt="tree">
-</a>
+            <a href="https://drive.google.com/file/d/16RLi-JcfjIFyovc-lL4ZdNDIez1LXL8H/view" target="_blank">
+                <img src="tree1.png" alt="bush">
+            </a>
 
-<a href="https://drive.google.com/file/d/16RLi-JcfjIFyovc-lL4ZdNDIez1LXL8H/view" target="_blank">
-<img src="tree1.png" alt="bush">
-</a>
+            <a href="https://drive.google.com/file/d/16rL1q93Br2IpHDheBaYbhC6rMxMD0EVr/view" target="_blank">
+                <img src="waterfall.png" alt="waterfall">
+            </a>
 
-<a href="https://drive.google.com/file/d/16rL1q93Br2IpHDheBaYbhC6rMxMD0EVr/view" target="_blank">
-<img src="waterfall.png" alt="waterfall">
-</a>
+        </div>
+    </div>
 
-</div>
-
-</div>
-
-<footer>
-© 2026 Vikum
-</footer>
+    <footer>
+        © 2026 Vikum
+    </footer>
 
 </body>
 </html>
